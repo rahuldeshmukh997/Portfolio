@@ -36,40 +36,57 @@
   
   /*----------------------------------- Background and Colors ------------------------------*/
 
-  .bg-primary 
-  .btn-primary{
-     background-color: var(--primary-color);
-     color: #fff;
-  }
+   .bg-primary 
+   .btn-primary{
+      background-color: var(--primary-color);
+      color: #fff;
+   }
 
-  .bg-secondary 
-  .btn-secondary{
+   .bg-secondary 
+   .btn-secondary{
       background-color: var(--secondary-color);
       color: #fff;
    }
 
    .bg-dark 
    .btn-dark{
-       background-color: var(--dark-color);
-       color: #fff;
-    }
+      background-color: var(--dark-color);
+      color: #fff;
+   }
 
+   .btn-dark{
+      margin: 10px 20px;   
+      background-color: var(--dark-color);
+      color: #fff; 
+   }
     
-   /* .bg-primary a,
+   .bg-primary a,
    .btn-primary a,
    .bg-secondary a,
    .btn-secondary a,
    .bg-dark a,
    .btn-dark a{
       color: #fff;
-   } */
+   }  
 
-   .bg-light
+   bg-light
    .btn-light{
-       background-color: var(--light-color);
-       color: #333;
-    }
+      background-color: var(--light-color);
+      color: #333;
+   }
    
+    .bg-primary{
+      background-color: var(--primary-color);
+   }
+   
+   .footer{
+      background-color: var(--dark-color);
+   }
+
+   .container h1,h2,p{
+      color: #fff;
+   }
+
     /*--------------------------------------- Text Sizes -----------------------------------*/
 
    .lead{
