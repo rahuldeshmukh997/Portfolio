@@ -55,11 +55,14 @@
    }
 
    .btn-dark{
-      margin: 10px 20px;   
+      /* box-sizing: border-box; */
+      /* margin: 10px 20px;  */
+      
+      padding: 5px 5px 5px 5px ;  
       background-color: var(--dark-color);
-      color: #fff; 
+      color: #fff;   
    }
-    
+   
    .bg-primary a,
    .btn-primary a,
    .bg-secondary a,
