@@ -72,7 +72,7 @@
       color: #fff;
    }  
 
-   bg-light
+   .bg-light
    .btn-light{
       background-color: var(--light-color);
       color: #333;
@@ -86,9 +86,12 @@
       background-color: var(--dark-color);
    }
 
-   .container h1,h2,p{
+   .footer h1,p{
       color: #fff;
-   }
+   } 
+   .cloud h2{
+      color: #fff;
+   } 
 
     /*--------------------------------------- Text Sizes -----------------------------------*/
 
